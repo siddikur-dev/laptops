@@ -9,12 +9,13 @@ const Laptops = ({ fetchLaptopPromise }) => {
     const newGetLaptop = [...getLaptop, laptop];
     setGetLaptop(newGetLaptop);
   };
-// han
+  // han
   const handleClear = () => {
     // const newGetLaptop = getLaptop.filter((laptop) => laptop.id !== id);
+    // const getLaptop = getLaptop([]);
     setGetLaptop([]);
   };
-// scrool to history section
+  // scrool to history section
   const handleScrollToFAQ = () => {
     const faqSection = document.getElementById("faq");
     if (faqSection) {
@@ -30,7 +31,6 @@ const Laptops = ({ fetchLaptopPromise }) => {
       >
         Go to cart{" "}
       </button>
-      {/* <h3 className="text-2xl text-center m-4">All Laptops:{laptops.length}</h3> */}
       {/* left e 3 columnn and right e aside */}
       <div className="flex flex-col md:flex-row  container mx-auto justify-center gap-5">
         {/* Two Column Grid Layout and aside */}

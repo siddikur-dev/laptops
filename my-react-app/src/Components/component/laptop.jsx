@@ -15,7 +15,7 @@ const Laptop = ({ laptop, handleGetLaptop }) => {
         Name: {brand}
       </h2>
       {/* add to cart and details button */}
-      <div className=" flex gap-5 mt-4"> 
+      <div className=" flex gap-5 mt-4">
         <button className="btn btn-dash" onClick={handleCard} disabled={cart}>
           {cart ? "Added" : "Add to cart"}
         </button>
@@ -53,9 +53,5 @@ const Laptop = ({ laptop, handleGetLaptop }) => {
     </div>
   );
 };
-
-//     </div>
-//   );
-// };
 
 export default Laptop;
